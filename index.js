@@ -273,7 +273,6 @@ async function connect(msg, mapKey) {
     }
 }
 
-await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.listening, name="to your shit"))
 
 function speak_impl(voice_Connection, mapKey) {
     voice_Connection.on('speaking', async (user, speaking) => {
